@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#b78caa;
+    height: 87px;
+    align-items: center;
+    padding: 30px;
+    
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+
+}
+nav a{
+    padding-right: 30px;
+}
+ a{
+    text-decoration: none;
+    font-family: "Itim", cursive;
+    color: #ffeeff;
+    font-size: 25px;
+
+}
+ul a:hover{
+    color:#a13866;
+    text-decoration: dotted;
+    background-color: #ffeeff;
+    transition: 0.5s;
+}
+
+.logo img{
+    border-radius: 100%;
+    width: 100px;
+
+}
+
+.logan h2{
+    color: #ea284b;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-fluid h1{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.carrete-nail-cuadro{
+    width: 35%;
+    height: 480px;
+    margin-left: 35%;
+}
+.loto p{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #4b3c5d;
+    font-size: 30px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.loto img { 
+    display: flex;
+    width: 20%;
+    margin-left: 40%; 
+    border-radius: 100%;
+}
+.fondocarre-nail{
+    background-image: url(./imana/fondo55.jpg);
+    background-repeat: no-repeat;
+}
+
+h5{
+    color:white;
+}
+.servicio h3{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #2c002c;
+}
+.servicio img{
+    width: 20%;
+}
+.servicio{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.conjunto{
+    background-image: url(./imana/sefo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.servicio img {
+    border-radius: 40%;
+    border: solid 18px #7f1e47;
+    box-shadow: 5px 8px 12px #2c002c;
+}
+.servicio p{
+    font-size: 20px;
+}
+.col img{
+    display: flex;
+    width: 30%;
+    margin-left: 40%;
+    border-radius: 30%;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: azure;
+}
+.ultimo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #b78caa ;
+    height: 80px;
+    margin: auto;
+}
+.ultimo p{
+    color: white;
+}
+.map img{
+    width: 20%;
+    height: 40%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: solid 10px red;
+    box-shadow: 5px 8px 12px #0f0f0f;
+}
+.map h4{
+    color: #0e0036;
+    font-family: "Satisfy", cursive;
+    font-weight: 600;
+    font-style: normal;
+    padding: 10px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+.map{
+    background-image: url(./imana/sefo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+iframe{
+    box-shadow: 5px 8px 12px #0f0f0f;
+
+}
+.wat img{
+    width: 60px;
+    padding: px;
+}
